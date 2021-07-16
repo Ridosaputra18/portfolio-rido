@@ -1,6 +1,7 @@
 .jumbotron {
   padding-top: 6rem;
   background-color: #e2edff;
+  height: 100vh;
 }
 
 #projects {
@@ -9,4 +10,15 @@
 
 section {
   padding: 5rem;
+}
+
+/* Media query saat di mobile */
+@media (max-width: 576px) {
+  .btn-github {
+    width: 90%;
+  }
+
+  .navbar {
+    background-color: black !important;
+  }
 }
